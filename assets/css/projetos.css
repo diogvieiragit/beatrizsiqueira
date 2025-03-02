@@ -1,0 +1,40 @@
+.text-decoration-none {
+    color: inherit;
+    text-decoration: none;
+}
+.text-decoration-none:hover {
+    text-decoration: underline;
+}
+
+.project-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+.container {
+    padding-bottom: 9rem;
+}
+
+
+.text-decoration-none {
+    font-size: 0.9rem;
+    text-decoration: none;
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: var(--text);
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+
+
+@media (max-width: 450px) {
+
+    .text-decoration-none {
+        font-size: 0.8rem;
+    }
+}

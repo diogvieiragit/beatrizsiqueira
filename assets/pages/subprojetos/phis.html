@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../../images/BS_mini.svg" type="image/x-icon">
+    <title>Beatriz Siqueira</title>
+
+
+    <link rel="preload" href="../../images/projetos/subprojetos/phis/phis3.webp" as="image">
+    <link rel="preload" href="../../images/projetos/subprojetos/phis/phis4.webp" as="image">
+    <link rel="preload" href="../../images/projetos/subprojetos/phis/phis1.webp" as="image">
+    <link rel="preload" href="../../images/projetos/subprojetos/phis/phis2.webp" as="image">
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../../custom.css">
+    <link rel="stylesheet" href="../../css/subprojetos/base.css">
+
+</head>
+<body class="bg-custom">
+
+    <header>
+
+        <nav class="nav">
+            <a href="../../../index.html" class="logo"> <img src="../../images/BS.svg" alt="Beatriz Siqueira" width="50rem"></a>
+            <button class="hamburger"></button>
+            <ul class="nav-list">
+              <li><a class="active" href="../projetos.html">PROJETOS</a></li>
+              <li><a href="../sobre.html">SOBRE</a></li>
+              <li><a href="../contato.html">CONTATO</a></li>
+            </ul>
+          </nav>
+
+    </header>
+
+    
+    <main class="principal row">
+        <div class="conteudo col-lg-4 col-md-12 text-content">
+          <h2 class="name"><span class="lighter">PROJETO</span> HIS & HMP</h2>
+            <p class="data">Data: 2024</p>
+            <p class="area">Área: 10.881m²</p>
+            <p class="desc">Projeto de faculdade focado em habitação popular. Contempla dez torres HMP e dez HIS, promovendo soluções acessíveis e inclusivas. Destaca-se pela ventilação cruzada, separação de espaços, hortas comunitárias, áreas verdes e comércio integrado, garantindo conforto e qualidade de vida. Todo o projeto foi desenvolvido por uma equipe de cinco integrantes.</p>
+        </div>
+    
+        <section class="galeria col-lg-8 col-md-12">
+            <figure class="itemGaleria item01">
+                <img src="../../images/projetos/subprojetos/phis/phis3.webp" class="imgGaleria" alt="Imagem 1" loading="eager"
+               onclick="openModal(this)">
+            </figure>
+            <figure class="itemGaleria item02">
+                <img src="../../images/projetos/subprojetos/phis/phis4.webp" class="imgGaleria" alt="Imagem 1" loading="eager" onclick="openModal(this)">
+            </figure>
+            <figure class="itemGaleria item03">
+                <img src="../../images/projetos/subprojetos/phis/phis1.webp" class="imgGaleria" alt="Imagem 1" loading="eager" onclick="openModal(this)">
+            </figure>
+            <figure class="itemGaleria item04">
+                <img src="../../images/projetos/subprojetos/phis/phis2.webp" class="imgGaleria" alt="Imagem 1" loading="eager" onclick="openModal(this)">
+            </figure>
+        </section>
+    </main>
+
+
+    <footer class="d-flex justify-content-between">
+      <h6>©2025</h6>
+      <h6>Beatriz Siqueira - Portfólio de arquitetura</h6>
+      <a href="../../pages/contato.html">Contato</a>
+    </footer>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <!-- Botão de fechar -->
+            <button class="close-btn" onclick="closeModal()">×</button>
+    
+            <!-- Botão de voltar -->
+            <button class="nav-btn left" onclick="prevImage()">&#10094;</button>
+    
+            <div class="modal-body">
+            <img id="modalImage" class="img-fluid" alt="Imagem ampliada">
+            </div>
+    
+            <!-- Botão de avançar -->
+            <button class="nav-btn right" onclick="nextImage()">&#10095;</button>
+        </div>
+        </div>
+    </div>
+  
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="../../../scripts.js"></script>
+</body>
+</html>

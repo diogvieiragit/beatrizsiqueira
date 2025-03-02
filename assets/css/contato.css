@@ -1,0 +1,105 @@
+.contact-info {
+    margin-bottom: 50px;
+    text-align: left; 
+}
+
+main {
+    max-width: 600px;
+    margin-left: 50px;
+    padding-bottom: 0.5rem;
+    padding-top: 3rem;
+    max-width: 80%;
+}
+
+.contact-info h2 {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: bold;
+    color: var(--text);
+    user-select: none;
+    -webkit-user-drag: none;
+    font-size: 2rem;
+}
+
+.contact-info p {
+    font-family: "League Spartan", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: var(--text);
+    user-select: text !important;
+    -webkit-user-drag: text !important;
+    font-size: 1.3rem;
+}
+
+.contact-info hr {
+    width: 15%; /* Mantém a linha com a largura total do bloco */
+    border: 1px solid #000000;
+    margin-left: 2%; /* Move a linha para a direita */
+    margin-top: 3rem;
+}
+
+.contact-info:last-child hr {
+    display: none;
+}
+
+.prin a {
+    text-decoration: none;
+    color: var(--text);
+    padding-left: 0.8rem;
+    font-family: "League Spartan", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    user-select: text !important;
+    -webkit-user-drag: text !important;
+    font-size: 1.3rem;
+}
+
+.prin p {
+    padding-left: 0.8rem;
+}
+
+.icon-title {
+    display: flex;
+    align-items: center; /* Alinha a imagem e o texto na mesma linha */
+    gap: 10px; /* Espaço entre a imagem e o texto */
+}
+
+.icon {
+    height: auto;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+
+::selection {
+    background: #405848; /* Amarelo */
+    color: rgb(226, 226, 226);
+}
+
+
+
+
+@media (max-width: 400px) {
+    main {
+        margin-left: 0;
+        max-width: 80%;
+    }
+
+    .contact-info h2 {
+        font-size: 1.7rem;
+    }
+    
+    .contact-info p {
+        font-size: 1.1rem;
+    }
+
+    .prin a {
+        font-size: 1.1rem;
+    }
+
+    .icon {
+        width: 2.5rem;
+    }
+}
