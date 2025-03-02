@@ -316,6 +316,6 @@ footer a {
 @media (prefers-color-scheme: dark) {
   html {
       filter: none !important;
-      background-color: white !important;
+      background-color: var(--bg) !important;
   }
 }
