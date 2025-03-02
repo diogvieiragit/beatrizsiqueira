@@ -2,11 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
 
 :root {
+  color-scheme: light;
     --text: #000000;
     --text_hover: #000000;
     --bg: #E0E0E0;
 }
 
+
+html {
+  filter: invert(0) !important;
+}
 
 * {
     margin: 0;
@@ -21,7 +26,7 @@ body {
 
 
   .bg-custom {
-    background-color: var(--bg);
+    background-color: var(--bg) !important;
 }
 
 /*--------------------------------------*/
@@ -306,4 +311,11 @@ footer a {
   
 
 
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+      filter: none !important;
+      background-color: white !important;
+  }
 }
