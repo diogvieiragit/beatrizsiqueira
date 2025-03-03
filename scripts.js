@@ -59,7 +59,11 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-  
-  
+
+if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+    document.documentElement.style.filter = 'none';
+    document.documentElement.style.backgroundColor = '#E0E0E0';
+}
+
 
 
