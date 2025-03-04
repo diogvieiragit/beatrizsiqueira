@@ -85,7 +85,7 @@ body {
     -webkit-user-drag: none;
     font-size: 1.3rem;
     max-width: 90%;
-    letter-spacing: 0.05rem; /* Ajuste o valor conforme necessário */
+    letter-spacing: 0.05rem; 
     padding-left: 0;
 }
 
