@@ -102,15 +102,15 @@ body {
     width: 0;
     height: 2px;
     background-color: var(--text);
-    transition: width 0.3s ease-in-out; /* Transição suave da largura */
+    transition: width 0.3s ease-in-out; 
   }
   
   .nav-list a:hover::after {
-    width: 100%; /* Expande a linha para 100% da largura do link */
+    width: 100%; 
   }
   
   .nav-list a.active::after {
-    width: 100%; /* Garante que a linha fique visível quando o link estiver ativo */
+    width: 100%; 
   }
 
   
@@ -170,17 +170,17 @@ footer {
 }
 
 footer h6 {
-  margin: 0; /* Remove margens padrão */
-  font-size: 0.8rem; /* Ajusta o tamanho da fonte */
+  margin: 0; 
+  font-size: 0.8rem; 
   user-select: none;
   -webkit-user-drag: none;
 }
 
 footer a {
-  margin: 0; /* Remove margens padrão */
-  font-size: 0.8rem; /* Ajusta o tamanho da fonte */
+  margin: 0; 
+  font-size: 0.8rem; 
   text-decoration: none;
-  color: var(--text); /* Cor do texto */
+  color: var(--text); 
   user-select: none;
   -webkit-user-drag: none;
 }
@@ -239,7 +239,7 @@ footer a {
       transition: 0.5s 0.6s;
     }
   
-    /* Estilos ativos */
+   
   
     .nav.active .nav-list {
       clip-path: circle(1500px at 90% -15%);
@@ -282,11 +282,11 @@ footer a {
   /*------------------*/
 
   .nav-list a:hover::after {
-    width: 0; /* Expande a linha para 100% da largura do link */
+    width: 0; 
   }
   
   .nav-list a.active::after {
-    width: 0; /* Garante que a linha fique visível quando o link estiver ativo */
+    width: 0; 
   }
 
   .nav-list a.active {
@@ -392,15 +392,15 @@ footer a {
           width: 0;
           height: 2px;
           background-color: var(--text);
-          transition: width 0.3s ease-in-out; /* Transição suave da largura */
+          transition: width 0.3s ease-in-out; 
         }
         
         .nav-list a:hover::after {
-          width: 100%; /* Expande a linha para 100% da largura do link */
+          width: 100%; 
         }
         
         .nav-list a.active::after {
-          width: 100%; /* Garante que a linha fique visível quando o link estiver ativo */
+          width: 100%; 
         }
       
         
@@ -454,23 +454,23 @@ footer a {
       footer {
         align-items: center;
         padding: 3rem 3rem 3rem 3rem;
-        color: var(--text); /* Cor do texto */
+        color: var(--text); 
         font-family: "Montserrat", serif;
         font-weight: 300;
       }
       
       footer h6 {
-        margin: 0; /* Remove margens padrão */
-        font-size: 0.8rem; /* Ajusta o tamanho da fonte */
+        margin: 0; 
+        font-size: 0.8rem;
         user-select: none;
         -webkit-user-drag: none;
       }
       
       footer a {
-        margin: 0; /* Remove margens padrão */
-        font-size: 0.8rem; /* Ajusta o tamanho da fonte */
+        margin: 0; 
+        font-size: 0.8rem; 
         text-decoration: none;
-        color: var(--text); /* Cor do texto */
+        color: var(--text); 
         user-select: none;
         -webkit-user-drag: none;
       }
@@ -529,7 +529,7 @@ footer a {
             transition: 0.5s 0.6s;
           }
         
-          /* Estilos ativos */
+         
         
           .nav.active .nav-list {
             clip-path: circle(1500px at 90% -15%);
@@ -572,11 +572,11 @@ footer a {
         /*------------------*/
       
         .nav-list a:hover::after {
-          width: 0; /* Expande a linha para 100% da largura do link */
+          width: 0; 
         }
         
         .nav-list a.active::after {
-          width: 0; /* Garante que a linha fique visível quando o link estiver ativo */
+          width: 0; 
         }
       
         .nav-list a.active {
