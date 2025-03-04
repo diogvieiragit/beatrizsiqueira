@@ -101,7 +101,7 @@ img:hover {
 }
 
 
-/* Ajuste para ocupar quase a tela toda */
+
 .modal-dialog {
     max-width: 95vw !important;
     max-height: 95vh !important;
@@ -117,11 +117,11 @@ img:hover {
 }
 
 .modal-header {
-    display: none !important; /* Remove o cabeçalho do modal (onde o X pode estar) */
+    display: none !important; 
 }
 
 .modal-content::after {
-    display: none !important; /* Garante que não há pseudo-elementos extras */
+    display: none !important;
 }
 
 
@@ -152,7 +152,7 @@ img:hover {
     transition: all 0.3s ease-in-out;
 }
 
-/* Remove o botão de fechar padrão do Bootstrap Modal */
+
 .modal-header .btn-close {
     display: none !important;
 }
@@ -168,7 +168,7 @@ img:hover {
     object-position: right;
 }
 
-/* Botão de fechar */
+
 .close-btn {
     position: absolute;
     top: 10px;
@@ -180,7 +180,7 @@ img:hover {
     display: none;
 }
 
-/* Botões de navegação */
+
 .nav-btn {
     position: absolute;
     top: 50%;
@@ -192,7 +192,7 @@ img:hover {
     cursor: pointer;
     font-size: 37px;
     transition: transform 0.2s ease-in-out;
-    border-radius: 50px; /* Aplica o border-radius */
+    border-radius: 50px; 
     z-index: 10; 
 }
 
