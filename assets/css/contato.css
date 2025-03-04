@@ -34,9 +34,9 @@ main {
 }
 
 .contact-info hr {
-    width: 15%; /* Mantém a linha com a largura total do bloco */
+    width: 15%; 
     border: 1px solid #000000;
-    margin-left: 2%; /* Move a linha para a direita */
+    margin-left: 2%; 
     margin-top: 3rem;
 }
 
@@ -63,8 +63,8 @@ main {
 
 .icon-title {
     display: flex;
-    align-items: center; /* Alinha a imagem e o texto na mesma linha */
-    gap: 10px; /* Espaço entre a imagem e o texto */
+    align-items: center; 
+    gap: 10px;
 }
 
 .icon {
@@ -74,7 +74,7 @@ main {
 }
 
 ::selection {
-    background: #405848; /* Amarelo */
+    background: #405848; 
     color: rgb(226, 226, 226);
 }
 
