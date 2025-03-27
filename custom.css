@@ -110,9 +110,9 @@ html, body {
     content: " ";
     display: block;
     width: 30px;
-    height: 3px;
+    height: 2.5px;
     background: var(--text);
-    margin-top: 5px;
+    margin-top: 4.5px;
     position: relative;
     transition: 0.4s;
     border-radius: 10rem;
@@ -221,7 +221,7 @@ footer h6, footer a {
 
     .nav.active .hamburger::after {
         transform: rotate(-135deg);
-        top: -7.3px;
+        top: -6.7px;
     }
 
     .hero {
@@ -246,11 +246,10 @@ footer h6, footer a {
 /* ------------------ MEDIA 550px ------------------ */
 
 @media (max-width: 550px) {
-
     .nav {
-        padding-right: 3.2rem;
-        padding-left: 0.5rem;
-    }
+      padding-right: 2.7rem;
+      padding-left: 0.4rem;
+   }
 
     footer {
         flex-direction: column;
